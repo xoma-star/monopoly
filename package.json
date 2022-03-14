@@ -1,0 +1,14 @@
+{
+  "name": "burj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"cd client && npm start\" \"cd server && npm run dev\" \"cd server && npm run watch\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
